@@ -76,7 +76,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server bot's response
 
-  const response = await fetch("https://gorgeous-pear-moose.cyclic.app", {
+  const response = await fetch("https://codex.cyclic.app", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
